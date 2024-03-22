@@ -1,0 +1,2 @@
+When you start exploring React source code, there is no denying that you need to build a small React application that serves as a guide in your debugging. The most common way to create this small application is to create an html file and import the React scripts. But this approach has some limits. This repo introduces a fast-based approach.
+This repository serves as a resource for an article I wrote on the subject.
