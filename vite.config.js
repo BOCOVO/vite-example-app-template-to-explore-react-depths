@@ -1,5 +1,7 @@
 import { esbuildFlowPlugin, flowPlugin } from '@bunchtogether/vite-plugin-flow';
 import { defineConfig } from 'vite';
+import resolveReactForkPlugin from './reactForkResolverPlugin';
+
 
 const flowPluginOptions = {
   include: /\.(flow|js?)$/,
@@ -29,6 +31,7 @@ const optimizeDeps = {
 
 export default defineConfig({
   plugins: [
+    resolveReactForkPlugin,
     flowPlugin(flowPluginOptions),
   ],
   optimizeDeps,
