@@ -10,5 +10,9 @@
   },
   "devDependencies": {
     "vite": "^5.2.0",
+  },
+  "dependencies": {
+    "react": "the-react-package-version-in-your-react-code",
+    "react-dom": "the-react0-dom-package-version-in-your-react-code"
   }
 }
